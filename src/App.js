@@ -140,7 +140,7 @@ function App() {
     }
   }
 
-  // Handler Click  
+  // Handle Click  
   const handleClick = (e) => {
     let audio = e.target.firstElementChild;
     audio.load();
